@@ -35,6 +35,7 @@
           </svg>
         </a>
       </div>
+
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Daily Use</div>
         <NuxtLink :to="{ name: 'companies-id' }" class="nav-link">
@@ -54,6 +55,7 @@
           Roles
         </NuxtLink>
       </div>
+
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Others</div>
         <a href="#" class="nav-link">
@@ -77,6 +79,7 @@
           Logout
         </a>
       </div>
+      
     </div>
   </div>
 </template>
